@@ -5,7 +5,7 @@ Asignatura: Programación Orientada a Objetos
 Unidad: Relación entre clases  
 Lenguaje de programación: Java
 
-=======================================================================================================
+============================================================================================
 
 1. Objetivo y propósito del proyecto
 
@@ -13,7 +13,7 @@ El objetivo de este proyecto es desarrollar un sistema de gestión de contenido 
 
 El sistema permite representar diferentes tipos de contenido audiovisual mediante clases, aplicando conceptos como herencia, encapsulamiento, asociación, agregación, composición y polimorfismo.
 
-=======================================================================================================
+============================================================================================
 
 2. Clases y funcionalidades implementadas
 
@@ -40,7 +40,7 @@ Nuevas clases implementadas
 - Agregación: Documental se relaciona con objetos Investigador creados independientemente.
 - Polimorfismo: los diferentes contenidos audiovisuales se almacenan en un arreglo de tipo ContenidoAudiovisual y ejecutan su propio método mostrarDetalles().
 
-=======================================================================================================
+============================================================================================
 
 3. Instrucciones para clonar y ejecutar el proyecto
 
@@ -73,7 +73,7 @@ Ejecutar el programa
 3. Hacer clic derecho sobre el archivo.
 4. Seleccionar Run As → Java Application.
 
-=======================================================================================================
+============================================================================================
 
 4. Mejoras implementadas
 
