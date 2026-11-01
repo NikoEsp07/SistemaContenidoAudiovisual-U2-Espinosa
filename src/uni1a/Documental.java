@@ -3,13 +3,19 @@
  */
 package uni1a;
 
-// Subclase Documental que extiende de ContenidoAudiovisual
-public class Documental extends ContenidoAudiovisual {
-    private String tema;
+import java.util.ArrayList;
 
-    public Documental(String titulo, int duracionEnMinutos, String genero, String tema) {
+public class Documental extends ContenidoAudiovisual {
+
+    private String tema;
+    private ArrayList<Investigador> investigadores;
+
+    public Documental(String titulo, int duracionEnMinutos,
+                      String genero, String tema) {
+
         super(titulo, duracionEnMinutos, genero);
         this.tema = tema;
+        this.investigadores = new ArrayList<>();
     }
 
     public String getTema() {
@@ -19,15 +25,33 @@ public class Documental extends ContenidoAudiovisual {
     public void setTema(String tema) {
         this.tema = tema;
     }
-    
-    @Override
+
+    //Agregar un investigador existente
+    public void agregarInvestigador(Investigador investigador) {
+        investigadores.add(investigador);
+    }
+
+    //Consultar investigadores
+    public ArrayList<Investigador> getInvestigadores() {
+        return investigadores;
+    }
+
+    //Mostrar detalles
     public void mostrarDetalles() {
-        System.out.println("Detalles de la película:");
+
+        System.out.println("Detalles del documental:");
         System.out.println("ID: " + getId());
-        System.out.println("Título: " + getTitulo());
-        System.out.println("Duración en minutos: " + getDuracionEnMinutos());
-        System.out.println("Género: " + getGenero());
-        System.out.println("Tema: " + this.tema);
+        System.out.println("Titulo: " + getTitulo());
+        System.out.println("Duracion: " + getDuracionEnMinutos());
+        System.out.println("Genero: " + getGenero());
+        System.out.println("Tema: " + tema);
+
+        System.out.println("Investigadores:");
+
+        for (Investigador investigador : investigadores) {
+            System.out.println("- " + investigador);
+        }
+
         System.out.println();
     }
 }

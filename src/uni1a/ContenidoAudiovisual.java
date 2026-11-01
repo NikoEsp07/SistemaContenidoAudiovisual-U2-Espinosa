@@ -14,7 +14,7 @@ public abstract class ContenidoAudiovisual {
         this.genero = genero;
     }
 
-    // Getter y Setter para el campo 'titulo'
+    //Getter y Setter para titulo
     public String getTitulo() {
         return titulo;
     }
@@ -23,7 +23,7 @@ public abstract class ContenidoAudiovisual {
         this.titulo = titulo;
     }
 
-    // Getter y Setter para el campo 'duracionEnMinutos'
+    //Getter y Setter para duracionEnMinutos
     public int getDuracionEnMinutos() {
         return duracionEnMinutos;
     }
@@ -32,7 +32,7 @@ public abstract class ContenidoAudiovisual {
         this.duracionEnMinutos = duracionEnMinutos;
     }
 
-    // Getter y Setter para el campo 'genero'
+    //Getter y Setter para genero
     public String getGenero() {
         return genero;
     }
@@ -41,7 +41,7 @@ public abstract class ContenidoAudiovisual {
         this.genero = genero;
     }
 
-    // Getter para el campo 'id' (no se proporciona el Setter ya que 'id' se asigna en el constructor y parece ser inmutable)
+    //Getter para id
     public int getId() {
         return id;
     }
