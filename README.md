@@ -54,9 +54,7 @@ Clonar el repositorio
 
 Ejecutar este comando en una terminal:
 
-```
 git clone https://github.com/NikoEsp07/SistemaContenidoAudiovisual.git
-```
 
 Importar en Eclipse
 
