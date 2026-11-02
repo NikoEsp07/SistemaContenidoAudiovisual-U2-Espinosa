@@ -1,0 +1,7 @@
+DIAGRAMAS UML DEL PROYECTO
+
+Esta carpeta contiene el diagrama UML del sistema de contenido audiovisual.
+
+Archivos:
+- Diagrama_UML.png: versión visual del diagrama.
+- Diagrama_UML.drawio: archivo editable del diagrama.
